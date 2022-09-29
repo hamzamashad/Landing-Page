@@ -43,7 +43,7 @@ function sectionToActiv() {
     sectionsHeaders.forEach(function(header) {
         const children = header.querySelectorAll('p');
         children.forEach(function(child) {
-            if(isInViewport(child)) {
+            if(isInViewport(child) || isInViewport(header)) {
                 header.classList.add("your-active-class");
             } else {
                 header.classList.remove("your-active-class");
