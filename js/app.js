@@ -41,11 +41,14 @@ function buildNav(sectionTitle, i) {
 // Add class 'active' to section when near top of viewport
 function sectionToActiv() {
     sectionsHeaders.forEach(function(header) {
-        if(isInViewport(header)) {
-            header.classList.add("your-active-class");
-        } else {
-            header.classList.remove("your-active-class");
-        }
+        const children = header.querySelectorAll('p');
+        children.forEach(function(child) {
+            if(isInViewport(child)) {
+                header.classList.add("your-active-class");
+            } else {
+                header.classList.remove("your-active-class");
+            }
+        })
     })
 }
 
