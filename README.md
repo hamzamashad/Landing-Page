@@ -1,10 +1,10 @@
 # Landing Page Project
-# # Description
+## Description
 A demo HTML webpage with different sections to illustrate the DOM manipulation using JavaScript
-# # Development
+## Development
 Page was built using HTML5 and CSS3
 JavaScript DOM manipulation technique was used to dynmically display the page
-# # Author
+## Author
 Hamza Elmashad
-# # Date
+## Date
 22.09.22
