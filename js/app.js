@@ -30,6 +30,7 @@ function buildNav(sectionTitle, i) {
     navItem.innerText = sectionTitle.innerText;
     navItem.classList.add("menu__link");
     navItem.href = `#section${i + 1}`;
+    navItem.dataset.nav = document.getElementById(`section${i + 1}`).dataset.nav;
     // Create a list item
     const li = document.createElement("li")
     // Append the anchor to the list item
