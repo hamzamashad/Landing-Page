@@ -4,6 +4,8 @@ A demo HTML webpage with different sections to illustrate the DOM manipulation u
 ## Development
 Page was built using HTML5 and CSS3
 JavaScript DOM manipulation technique was used to dynamically display the page
+## Link
+https://hamzamashad.github.io/Landing-Page/
 ## Author
 Hamza Elmashad
 ## Date
